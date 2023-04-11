@@ -17,7 +17,6 @@ For this project, there won't be any need to open a browser. All of your code wi
 
 ![Tickets](/assets/banner-tickets.png)
 
-[Trello Board Tickets](https://trello.com/b/V2tKlN6Y/javascript-functions)
 ![Trello Board](/assets/M1L5.1-functions-trello-board.png)
 - In the `refactor.js` file, rework the `previewFullPrice()` function with DRYer code.
 - Fix the error in the `hoisting.js` file.
@@ -30,7 +29,9 @@ For this project, there won't be any need to open a browser. All of your code wi
 
 ### Step 1:
 
-- Fork and clone this repository.
+- Fork and clone this repository, and check out to a new branch. Use you [Git Resource: Create a new branch](https://git.generalassemb.ly/SEIR-Boston/git-resource#create-a-branch) for help with this step.
+- Once you have cloned the repository, navigate to the root directory of the project in your terminal and run `npm install` to install the dependencies.
+- To run tests, run `npm test` in your terminal.
 
 ### Step 2:
 
@@ -65,3 +66,8 @@ Are arguments passed by name or by order?
 - Just like in `Refactoring/refactor.js`, we want to reduce repetition in this function. The main difference is that each call to `.map()` takes a function as its argument.
 - Can you refactor this code by extracting the repeated behavior into a DRYer function?
   - This code already works and passes the tests. You will know your refactoring is successful if the code becomes shorter, and the tests still pass after your changes.
+
+
+### Step 6:
+
+- Once you have completed all the steps, commit your changes and push your branch to GitHub. Use you [Git Resource: Create a pull request to original repository](https://git.generalassemb.ly/SEIR-Boston/git-resource#create-a-pull-request-to-original-repository) for help with this step.
