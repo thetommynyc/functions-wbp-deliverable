@@ -66,8 +66,3 @@ Are arguments passed by name or by order?
 - Just like in `Refactoring/refactor.js`, we want to reduce repetition in this function. The main difference is that each call to `.map()` takes a function as its argument.
 - Can you refactor this code by extracting the repeated behavior into a DRYer function?
   - This code already works and passes the tests. You will know your refactoring is successful if the code becomes shorter, and the tests still pass after your changes.
-
-
-### Step 6:
-
-- Once you have completed all the steps, commit your changes and push your branch to GitHub. Use you [Git Resource: Create a pull request to original repository](https://git.generalassemb.ly/SEIR-Boston/git-resource#create-a-pull-request-to-original-repository) for help with this step.
